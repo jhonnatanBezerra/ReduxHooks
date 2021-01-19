@@ -6,44 +6,55 @@ import './styles.css';
 export const Itau = () =>{
 
 
-    return(
-  <div className="main">
+return(
 
-<div className="container">
-<center>
-<div className="middle">
-      <div id="login">
+<div className="main">
+  <div className="container">
+    <center>
+      <div className="middle">
+        <div id="login">
 
-        <form >
+          <form >
 
-          <fieldset className="clearfix">
+            <fieldset className="clearfix">
 
-            <p ><span className="fa fa-user"></span><input type="text"  Placeholder="Username" required/></p> 
-            <p><span className="fa fa-lock"></span><input type="password"  Placeholder="Password" required/></p> 
-            
-             <div>
-                                <span ><a className="small-text" href="#">Forgot
-                                password?</a></span>
-                                <span ><input type="submit" value="Sign In"/></span>
-                            </div>
+              <p >
+                <span className="fa fa-user"></span>
+                <input type="text"  Placeholder="Username" required/>
+              </p> 
 
-          </fieldset>
-<div className="clearfix"></div>
-        </form>
-
-        <div class="clearfix"></div>
-
-      </div> 
-      <div className="logo">LOGO
-          
-          <div className="clearfix"></div>
-      </div>
+              <p>
+                <span className="fa fa-lock"></span>
+                <input type="password"  Placeholder="Password" required/>
+              </p> 
       
+             <div>
+                <span >
+                  <a className="small-text" href="#">Forgort password?</a>
+                </span>
+
+                <span >
+                  <input type="submit" value="Sign In"/>
+                </span>
+              </div>
+
+            </fieldset>
+
+            <div className="clearfix"></div>
+          </form>
+
+           <div class="clearfix"></div>
+
+        </div> 
+        <div className="logo">LOGO            
+            <div className="clearfix"></div>
+        </div>
+
       </div>
-</center>
-    </div>
+    </center>
+  </div>
 
-    </div>
+</div>
 
-    )
+)
 }
