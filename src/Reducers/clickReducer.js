@@ -2,14 +2,14 @@ import { actionsType } from '../Actions/actionsTypes';
 
 
 const INITIAL_STATE = {
-    newValue : 'Reducer'
+    user : 'Joao'
 };
 
 export const clickReducer = (state = INITIAL_STATE, action) =>{
     switch (action.type){
-        case actionsType.CLICK_UPDATE_VALUE: 
+        case actionsType.LOGIN: 
         return{
-            ...state, newValue: action.newValue
+            ...state, user: action.user
         };
         default : 
         return state;

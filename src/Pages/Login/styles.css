@@ -1,0 +1,84 @@
+
+div.main{
+
+  background: -webkit-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%);  
+  height:calc(100vh);
+  width:100%;
+
+}
+
+.container {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle {
+  display: flex;
+  width: 600px;
+}
+
+/* ---------- LOGIN ---------- */
+
+#login form{
+	width: 250px;
+}
+#login, .logo img{
+    display:inline-block;
+    width:100%;
+}
+
+#login{
+border-right:1px solid #fff;
+  padding: 10px 22px;
+  width: 59%;
+}
+
+.logo{
+  color:#fff;
+  line-height: 125px;
+}
+
+#login form span {
+	background-color: #fff;
+	border-radius: 3px 0px 0px 3px;
+	color: #000;	
+	float: left;	
+  font-size:26px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+#login form input {
+	height: 50px;
+}
+
+
+#login form input[type="text"], input[type="password"] {
+	background-color: #fff;
+	border-radius: 0px 3px 3px 0px;
+	color: #000;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 200px;
+}
+
+#login form button {
+  border: 0;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  height: 50px;
+  width: 250px;
+  transition: filter 0.2s;
+}
+
+#login form button:hover {
+	filter: brightness(90%);
+}
+

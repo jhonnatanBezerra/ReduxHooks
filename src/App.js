@@ -8,13 +8,13 @@ function App() {
 
   //https://www.youtube.com/watch?v=LGkNjt7k4UQ&t=1s&ab_channel=Rocketseat
 
- const valor = useSelector(state => state.clickState.newValue); //BUSCANDO NO STATE A CHAVE  clickState E O VALOR newValue
+ const valor = useSelector(state => state.clickState.user); //BUSCANDO NO STATE A CHAVE  clickState E O VALOR newValue
  const dispatch = useDispatch(); // disparador de ações
 
  const [value, setValue] = useState('');
 
  const handleClick = () => {
-   dispatch(actions.clickButton(value));
+   dispatch(actions.clickLogin(value));
    setValue('');
   }
 
