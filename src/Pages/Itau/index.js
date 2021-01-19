@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css';
 
 
 
@@ -6,11 +7,42 @@ export const Itau = () =>{
 
 
     return(
-        <div>
-    <div className="input-group mb-3">
-  <span className="input-group-text" id="basic-addon1">Insira a quantidade de pessoas</span>
-  <input type="text" className="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1"/>
+  <div className="main">
+
+<div className="container">
+<center>
+<div className="middle">
+      <div id="login">
+
+        <form >
+
+          <fieldset className="clearfix">
+
+            <p ><span className="fa fa-user"></span><input type="text"  Placeholder="Username" required/></p> 
+            <p><span className="fa fa-lock"></span><input type="password"  Placeholder="Password" required/></p> 
+            
+             <div>
+                                <span ><a className="small-text" href="#">Forgot
+                                password?</a></span>
+                                <span ><input type="submit" value="Sign In"/></span>
+                            </div>
+
+          </fieldset>
+<div className="clearfix"></div>
+        </form>
+
+        <div class="clearfix"></div>
+
+      </div> 
+      <div className="logo">LOGO
+          
+          <div className="clearfix"></div>
+      </div>
+      
+      </div>
+</center>
     </div>
+
     </div>
 
     )
