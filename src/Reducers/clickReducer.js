@@ -2,7 +2,7 @@ import { actionsType } from '../Actions/actionsTypes';
 
 
 const INITIAL_STATE = {
-    newValue : '@@'
+    newValue : 'Reducer'
 };
 
 export const clickReducer = (state = INITIAL_STATE, action) =>{

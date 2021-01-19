@@ -2,8 +2,8 @@ import { actionsType } from '../Actions/actionsTypes';
 
 
 export const actions = {
-    clickButton : value =>({
+    clickButton : valor =>({
         type: actionsType.CLICK_UPDATE_VALUE,
-        newValue : value
+        newValue : valor
     })
 }
