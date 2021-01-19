@@ -9,7 +9,7 @@ import './global.css';
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <Login />
   </Provider>,
   
   document.getElementById('root')
