@@ -1,4 +1,6 @@
-import React from 'react';
+import React,{useState} from 'react';
+import {useHistory} from 'react-router-dom'
+
 import './styles.css';
 
 import Logo from '../../assets/logo.png';
@@ -8,7 +10,17 @@ import {FaLock, FaUser} from 'react-icons/fa';
 
 export const Login = () =>{
 
-  
+  const [user, setUser]= useState('');
+  const [pass, setPass]= useState('');
+
+  const history = useHistory();
+
+  const handleLogin = (e) =>{
+    e.preventDefault();
+
+    history.push('/home');
+    
+  }
 
 
 return(
@@ -21,13 +33,13 @@ return(
 
           <form >
               
-                <span className="fa fa-user"><FaUser/></span>
-                <input type="text"  Placeholder="Username" required/>           
+                <span ><FaUser/></span>
+                <input type="text"  Placeholder="Username" required onChange={(e)=>setUser(e.target.value)} />           
 
-                <span className="fa fa-lock"><FaLock/></span>
-                <input type="password"  Placeholder="Password" required/>
+                <span ><FaLock/></span>
+                <input type="password"  Placeholder="Password" required onChange={(e)=>setPass(e.target.value)} />
 
-            <button>Entrar</button>
+            <button onClick={handleLogin}>Entrar</button>
 
             
           </form>
