@@ -11,34 +11,41 @@
 }
 
 .content {
+  
   display: flex;
   width: 600px;
 }
 
 /* ---------- LOGIN ---------- */
 
-.login {
-	width: 250px;
-}
 
-.login, .logo img{
+ .logo img{
     display:inline-block;
     width:100%;
 }
 
 .login{
+ 
   border-right:1px solid #fff;
   padding: 10px 22px;
   width: 59%;
 }
 
 .logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color:#fff;
-  line-height: 180px;
   margin-left: 10px;
 }
 
+.logo h3{
+ line-height: 0;
+}
+
 .login  span {
+
 	background-color: #fff;
 	border-radius: 3px 0px 0px 3px;
 	color: #000;	
@@ -49,12 +56,10 @@
 	width: 50px;
 }
 
-.login  input {
-	height: 50px;
-}
 
 
 .login  input[type="text"], input[type="password"] {
+  height: 50px;
 	background-color: #fff;
 	border-radius: 0px 3px 3px 0px;
 	color: #000;

@@ -45,6 +45,7 @@ return(
 
         <div className="logo">        
           <img src={Logo} alt="Logo Verzel"/>
+          <h3>Texto</h3>
         </div>
 
       </div>
