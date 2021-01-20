@@ -25,35 +25,33 @@ export const Login = () =>{
 
 return(
 
-<div className="main">
-  <div className="container">
-    <center>
-      <div className="middle">
-        <div id="login">
+<>
+  <div className="container-login">
+    
+      <div className="content">
+        
 
-          <form >
+        <form className="login">
               
-                <span ><FaUser/></span>
-                <input type="text"  Placeholder="Username" required onChange={(e)=>setUser(e.target.value)} />           
+          <span ><FaUser/></span>
+          <input type="text"  Placeholder="Username" required onChange={(e)=>setUser(e.target.value)} />  
 
-                <span ><FaLock/></span>
-                <input type="password"  Placeholder="Password" required onChange={(e)=>setPass(e.target.value)} />
+          <span ><FaLock/></span>
+          <input type="password"  Placeholder="Password" required onChange={(e)=>setPass(e.target.value)} />
 
-            <button onClick={handleLogin}>Entrar</button>
-
+          <button onClick={handleLogin}>Entrar</button>
             
-          </form>
+        </form>
 
-        </div> 
         <div className="logo">        
-            <img src={Logo} alt="Logo Verzel"/>
+          <img src={Logo} alt="Logo Verzel"/>
         </div>
 
       </div>
-    </center>
+    
   </div>
 
-</div>
+</>
 
 )
 }
