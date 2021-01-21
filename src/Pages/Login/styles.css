@@ -1,7 +1,7 @@
 
 .container-login{
   
-  background: -webkit-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%);  
+  background: -webkit-radial-gradient(center, ellipse cover,  #0264d6 4%,#1c2b5a 100%);  
   height:calc(100vh);
   width:100%;
   display: flex;
@@ -19,10 +19,6 @@
 /* ---------- LOGIN ---------- */
 
 
- .logo img{
-    display:inline-block;
-    width:100%;
-}
 
 .login{
  
@@ -31,18 +27,7 @@
   width: 59%;
 }
 
-.logo{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color:#fff;
-  margin-left: 10px;
-}
 
-.logo h3{
- line-height: 0;
-}
 
 .login  span {
 
@@ -58,7 +43,7 @@
 
 
 
-.login  input[type="text"], input[type="password"] {
+.login  input[type="text"], .login input[type="password"] {
   height: 50px;
 	background-color: #fff;
 	border-radius: 0px 3px 3px 0px;
@@ -85,5 +70,23 @@
   background-color: #0264d6;
   border: 1px solid #fff;
   color: #fff;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+  margin-left: 10px;
+}
+
+.logo img{
+  display:inline-block;
+  width:100%;
+}
+
+.logo h3{
+ line-height: 0;
 }
 
