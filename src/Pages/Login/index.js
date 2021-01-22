@@ -17,7 +17,7 @@ export const Login = () =>{
 
   const handleLogin = (e) =>{
     e.preventDefault();
-
+    console.log(user, pass);
     history.push('/home');
     
   }

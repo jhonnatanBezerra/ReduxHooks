@@ -1,0 +1,126 @@
+:root{
+    --dark-blue: #363f5f;
+}
+
+body{
+    background: #f0f2f5;    
+}
+
+h2{    
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--dark-blue);
+
+    font-weight: normal;
+}
+
+header{
+    text-align: center;
+    background: #2d4a22;
+    padding: 2rem 0 10rem;
+    
+}
+
+header h1{
+    color: #fff;
+    font-weight: 100;
+}
+
+.containers{
+    width: 90vw;
+    min-width: 800px;
+    margin: auto;
+}
+
+.balance{
+    margin-top: -8rem;
+}
+
+.balance h2{
+    color: #fff;
+    margin-top: 0;
+}
+
+.cards{
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+
+    color: var(--dark-blue);
+}
+
+.cards h3{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.cards p{
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+.cards.total{
+    background: #49aa26;
+    color: #fff;
+}
+
+.data-table{
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    color: #969cb3;
+}
+
+table thead tr td:first-child,
+table tbody tr td:first-child{
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+
+ table thead th{
+    background: white;
+    text-align: left;    
+    font-weight: normal;
+    padding: 1rem 2rem;
+}
+
+ table tbody tr{
+    opacity: 0.7;
+}
+
+ table tbody tr:hover{
+  opacity: 1;
+}
+
+ table tbody td{
+    background: white;
+
+    padding: 1rem 2rem;
+    font-weight: normal;    
+}
+
+td.description{
+    color: var(--dark-blue);
+}
+
+td.income{
+    color: #12a454;
+}
+
+td.expanse{
+    color: #e92929;
+}
+
+footer{
+    text-align: center;
+    padding: 4rem 0 2rem;
+    color: var(--dark-blue);
+    opacity: 0.6;
+}
+
+
+
+
+
+
